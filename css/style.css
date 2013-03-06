@@ -1,0 +1,332 @@
+/*
+ * 4Migos.se css
+ *
+ * Ett försök att göra en snygg och smidig CSS fil för användning till webbutveckling projektet 4migos.
+ *  */
+
+/*-------------------------------------------------------------------------------------------*/
+/* RESET - http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 */
+/*-------------------------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Hand cursor on clickable input elements */
+label, input[type="button"], input[type="submit"], input[type="image"], button {
+	cursor: pointer;
+}
+/* Bicubic resizing for non-native sized IMG: code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
+.ie7 img {
+	-ms-interpolation-mode: bicubic;
+}
+/* www.sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars/ */
+textarea {
+	overflow: auto;
+}
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+button, input, select, textarea {
+	margin: 0;
+}
+/* www.pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap/ */
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	background: #ffffff;
+	border: 1px solid #eaeaea;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+/* Normalize monospace sizing: en.wikipedia.org/wiki/MediaWiki_talk:Common.css/Archive_11#Teletype_style_fix_for_Chrome */
+pre, code, kbd, samp {
+	font-family: monospace, sans-serif;
+}
+/* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active {
+	outline: none;
+}
+/* Set sub, sup without affecting line-height: gist.github.com/413930 */
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+}
+sup {
+	top: -0.5rem;
+}
+sub {
+	bottom: -0.25rem;
+}
+/* Floating & Alignment  */
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.ac {
+	text-align: center;
+}
+.ar {
+	text-align: right;
+}
+/* The Magnificent Clearfix: Updated to prevent margin-collapsing on child elements.
+ j.mp/bestclearfix */
+.fix:before, .fix:after, .col-full:before, .col-full:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+.fix:after, .col-full:after {
+	clear: both;
+}
+/* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
+.fix, .col-full {
+	zoom: 1;
+}
+
+/* IMPORTS */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+
+/* SETUP & DEFAULTS */
+
+body {
+	font-size: 1rem;
+	line-height: 1.618;
+	color: #403737;
+	background-color: #FFF;
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+img {
+	vertical-align: bottom;
+	max-width: 100%;
+	height: auto;
+}
+hr {
+	background-color: #848a92;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.618rem;
+}
+
+/* SITE STRUCTURE */
+
+.container {
+	margin: 0 auto;
+	padding: 0 1.25rem;
+}
+
+#header {
+	width: 100%;
+	float: left;
+	margin: 49px 0;
+}
+
+#logo {
+	width: 350px;
+	float: left;
+}
+
+/* TYPHOGRAPHY */
+
+h1 {
+	font-size: 1.618rem;
+	line-height: 1.387rem;
+}
+h2 {
+	font-size: 1.387rem;
+	line-height: 1.387rem;
+}
+h3 {
+	font-size: 1rem;
+}
+h4 {
+	font-size: .857rem;
+}
+h5 {
+	font-size: .618rem;
+}
+h6 {
+	font-size: .53rem;
+}
+
+p {
+	font-weight: 400;
+}
+
+/* NAVIGATION */
+
+#navigation {
+	margin-top: 3.2rem;
+}
+
+#navigation ul {
+	list-style: none;
+}
+
+#navigation a {
+	color: #111;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #e30614;
+}
+
+
+
+/* CONTENT */
+
+#content {
+	margin: 1.25rem 0;
+	float: left;
+}
+
+#page-header {
+
+}
+
+/* FRONT PAGE */
+
+#welcome-message, #page-header {
+	width: 100%;
+	float: left;
+	background: #e30614;
+	color: #FFF;
+	padding: 1.8rem 0;
+}
+
+#welcome-message {
+	font-weight: 400;
+	font-size: 1.8rem
+}
+
+#welcome-message a {
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+#welcome-message a:hover {
+	text-decoration: underline;
+}
+
+/* FOOTER */
+
+#footer {
+	background: #111;
+	color: #fff;
+	float: left;
+	width: 100%;
+	padding: 1.25em 0;
+}
+
+/* =Media queries
+ -------------------------------------------------------------- */
+
+/* Maximum width of 419 pixels. */
+@media screen and (max-width: 500px) {
+
+	#logo {
+		width: 100%;
+	}
+
+	#navigation {
+		width: 100%;
+		float: left;
+	}
+
+	#navigation ul li {
+		width: 50%;
+		float: left;
+		margin: 0;
+		text-align: center;
+	}
+
+}
+
+/* Minimum width of 420 pixels. */
+@media screen and (min-width: 501px) {
+
+	#logo {
+		max-width: 350px;
+		float: left;
+	}
+
+	#navigation {
+		width: 100%;
+		float: left;
+		text-align:center;
+	}
+
+	#navigation ul li {
+		float: left;
+		margin-left: 1.5rem;
+		font-size: 1.3rem;
+		font-weight: 400;
+		text-align: center;
+		width: auto;
+	}
+
+	#navigation ul li:first-child {
+		margin-left: 0;
+	}
+
+}
+
+/* Minimum width of 930 pixels. */
+@media screen and (min-width: 930px) {
+
+	.container {
+		max-width: 930px;
+	}
+
+	#logo {
+		width: 350px;
+		float: left;
+	}
+
+	#navigation {
+		width: 55%;
+		float: right;
+	}
+
+	#navigation ul li {
+		float: left;
+		margin-left: 1.5rem;
+		font-size: 1.3rem;
+		font-weight: 400;
+		text-align: left;
+		width: auto;
+	}
+
+	#navigation ul li:first-child {
+		margin-left: 0;
+	}
+
+}
