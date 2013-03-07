@@ -150,6 +150,17 @@ hr {
     float: left;
 }
 
+/*MEMBERS PAGE*/
+#left_panel{
+	padding-right: 1.25rem;
+	float:left;
+}
+.memberphoto {
+	padding: 1.50rem 0;
+	height: 200px;
+	width: 200px;
+}
+
 /* TYPHOGRAPHY */
 
 h1 {
