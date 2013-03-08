@@ -150,7 +150,7 @@ hr {
     float: left;
 }
 
-/*MEMBERS PAGE*/
+/* MEMBERS PAGE */
 #left_panel{
 	padding-right: 1.25rem;
 	float:left;
@@ -186,6 +186,21 @@ h6 {
 
 p {
     font-weight: 400;
+}
+
+.portfolio-title {
+	margin-top: 0.9rem;
+}
+
+/* LINKS */
+
+a, a:visited, a:active {
+	text-decoration:none;
+	color: #e30614;
+}
+
+a:hover {
+	color: #111;
 }
 
 /* NAVIGATION */
@@ -245,6 +260,17 @@ p {
     text-decoration: underline;
 }
 
+.portfolio-item {
+	float:left;
+	text-align:center;
+	margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    	max-width:90%;
+    	height: auto;
+    }
+
 /* FOOTER */
 
 #footer {
@@ -277,6 +303,10 @@ p {
         margin: 0;
         text-align: center;
     }
+    
+    .portfolio-item {
+    	width: 50%;
+     }
 
 }
 
@@ -299,6 +329,10 @@ p {
 
     #navigation ul li:first-child {
         margin-left: 0;
+    }
+    
+    .portfolio-item {
+    	width: 25%;
     }
 
 }
@@ -327,5 +361,10 @@ p {
     #navigation ul li:first-child {
         margin-left: 0;
     }
+    
+    .portfolio-item {
+    	width: 25%;
+    }
+    
 
 }
