@@ -43,17 +43,23 @@
 
 <section id="welcome-message">
   <div class="container">
-    <p>4Migos gör hemsidor och trycksaker. Ser du något intressant? Hör av dig till <a href="mailto:hej@4migos.se">hej@4migos.se</a></p>
-  </div>
+    <aside id="featured" class="body"><article>
+        <figure>
+                <img src="img/chrizze.jpg" alt="Smashing Magazine" />
+        </figure>
+        <hgroup>
+                <h2>Christer Johansson</h2>
+                <h3>Webbutvecklare</h3>
+        </hgroup>
+        <p>Discover how to use Graceful Degradation and Progressive Enhancement</p>
+  </div><!-- featured slutar här-->
 </section><!-- end #welcome-message -->
     
-
 <div id="page" class="container">
   <section id="content" role="main">
    <div id="left_panel">
-    <p><h2>Christer Johansson</h2></p>
-    <p><img src="img/chrizze.jpg" class="memberphoto"></p>
-    <div>Detta är text</div>
+    <p><h2>Kompetens</h2></p>
+    <div>Dessa tekniker anv&auml;nder jag mest</div>
     <p>
       <ul>
         <li>XHTML</li>
@@ -65,7 +71,34 @@
       </ul>
     </p>   
    </div>
-   <div class="fr">höger sida för artiklar portfoliogrejs</div>
+   <div id="right_panel">
+    <ol id="posts-list" class="hfeed">
+        <li><article class="portfolio-entry">  
+                <header>
+                                <h2 class="entry-title"><a href="#" rel="bookmark" title="Permalink to this POST TITLE">Rubrik för portfolio</a></h2>
+                        </header>
+ 
+                        <footer class="portfolio-image">
+                                <img src="img/christer/mineralium.png" alt="bild för Mineralium" />
+                        </footer><!-- /.post-info -->
+ 
+                        <div class="entry-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum. Nullam et justo <a href="#">non sapien</a> dapibus blandit nec et leo. Ut ut malesuada tellus.</p>
+ 
+                        </div><!-- /.entry-content -->
+                </article></li>
+                
+                <li><article class="portfolio-entry">
+                        ...
+                </article></li>
+ 
+                
+                <li><article class="portfolio-entry">
+                        ...
+                </article></li>
+        </ol><!-- /#posts-list -->
+   
+   </div>
   </section>
 </div> <!--! end #page -->
 
