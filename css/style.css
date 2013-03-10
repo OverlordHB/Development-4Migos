@@ -150,6 +150,8 @@ hr {
     float: left;
 }
 
+
+
 /* MEMBERS PAGE */
 #left_panel{
 	padding-right: 1.25rem;
@@ -240,7 +242,7 @@ a:hover {
 /* CONTENT */
 
 #content {
-    margin: 1.25rem 0;
+    margin: 2.5rem 0;
     float: left;
 }
 
@@ -283,13 +285,48 @@ a:hover {
 
 .portfolio-item {
 	float:left;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 .portfolio-item img {
     	max-width:90%;
     	height: auto;
 }
+
+/* SINGLE PORTFOLIO PAGE */
+
+#portfolio-header {
+	text-align:center;
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.single-portfolio-text {
+	max-width: 600px;
+	float: left;
+}
+
+.single-portfolio-info {
+	max-width: 300px;
+	float: right;
+}
+
+.portfolio-info-header {
+	font-size: 1.2rem;
+	margin-bottom: 16px;
+}
+
+.single-portfolio-info ul {
+	list-style: none;
+}
+
+.client, .technigues, .url {
+	background: #111;
+	color: #fff;
+	padding: 3px 5px;
+}
+
+
 
 /* FOOTER */
 
