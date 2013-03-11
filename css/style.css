@@ -321,16 +321,6 @@ a:hover {
 	margin-bottom: 1.5rem;
 }
 
-.single-portfolio-text {
-	max-width: 600px;
-	float: left;
-}
-
-.single-portfolio-info {
-	max-width: 300px;
-	float: right;
-}
-
 .portfolio-info-header {
 	font-size: 1.2rem;
 	margin-bottom: 16px;
@@ -441,6 +431,11 @@ a:hover {
         margin-left: 0;
         padding-left: 0;
     }
+    
+    .single-portfolio-info {
+    	float:left;
+    	width: 100%;
+    }
 
 }
 
@@ -467,6 +462,18 @@ a:hover {
     
     .imglist-item {
     	width: 25%;
+    }
+    
+    .single-portfolio-text {
+    	width: 55%;
+    	padding-right: 5%;
+    	float:left;
+    }
+    
+    .single-portfolio-info {
+    	max-width: 20%;
+    	float:left;
+    	
     }
 
 }
@@ -499,6 +506,16 @@ a:hover {
     .imglist-item {
     	width: 25%;
     }
+    
+    .single-portfolio-text {
+	width: 65%;
+	float: left;
+}
+
+.single-portfolio-info {
+	max-width: 30%;
+	float: right;
+}
     
 
 }
