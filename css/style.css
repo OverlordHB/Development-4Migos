@@ -334,6 +334,10 @@ a:hover {
 	margin-bottom: 0.6rem;
 }
 
+.single-portfolio-info dd {
+	margin-bottom: 1rem;
+}
+
 .client, .technigues, .url {
 	background: #111;
 	color: #fff;
