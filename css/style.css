@@ -216,6 +216,10 @@ a:hover {
 	color: #111;
 }
 
+#footer a:hover {
+	color: #FFF;
+}
+
 /* NAVIGATION */
 
 #navigation {
