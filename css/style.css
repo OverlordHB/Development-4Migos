@@ -94,11 +94,11 @@ sub {
     height: 0;
     overflow: hidden;
 }
-.fix:after, .col-full:after {
+.fix:after {
     clear: both;
 }
 /* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
-.fix, .col-full {
+.fix {
     zoom: 1;
 }
 
