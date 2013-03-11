@@ -340,6 +340,10 @@ a:hover {
 	list-style: none;
 }
 
+.single-portfolio-info ul li {
+	margin-bottom: 0.6rem;
+}
+
 .client, .technigues, .url {
 	background: #111;
 	color: #fff;
