@@ -190,6 +190,14 @@ p {
     font-weight: 400;
 }
 
+#content p {
+    margin-bottom: 1.3em;
+}
+
+#content h2 {
+    margin-bottom: 1.3rem;
+}
+
 .portfolio-title {
 	margin-top: 0.9rem;
 	text-align:center;
@@ -248,6 +256,7 @@ a:hover {
 #content {
     margin: 2.5rem 0;
     float: left;
+    width: 100%
 }
 
 #page-header {
@@ -272,6 +281,10 @@ a:hover {
 #welcome-message {
     font-weight: 400;
     font-size: 1.8rem
+}
+
+#page-header p {
+    font-size: 1.618rem;
 }
 
 #welcome-message a {
@@ -330,6 +343,33 @@ a:hover {
 	padding: 3px 5px;
 }
 
+/* CONTACT PAGE */
+
+.contact input, .contact textarea {
+    width: 87%;
+    min-width: 200px;
+    max-width: 400px;
+    display: block;
+}
+
+.contact textarea {
+    resize: none;
+}
+
+.contactbody {
+    margin-bottom: 1.3em;
+}
+
+.contactcopy {
+    margin-left: 280px;
+    padding-left: 2em;
+}
+
+/* HELPER CLASSES */
+
+.margin2r {
+    margin: 0 2em 2em 0;
+}
 
 
 /* FOOTER */
@@ -368,6 +408,15 @@ a:hover {
     .portfolio-item {
     	width: 50%;
      }
+
+     .no-mobile {
+        display: none;
+     }
+
+     .contactcopy {
+        margin-left: 0;
+        padding-left: 0;
+    }
 
 }
 

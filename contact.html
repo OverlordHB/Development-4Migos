@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="sv"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="sv"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="sv"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="sv">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>4Migos - Webbyr&aring; deluxe</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <!-- CSS: implied media=all -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- end CSS-->
+        <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+        Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+        For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+        <script src="js/libs/modernizr-2.0.6.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header id="header" role="banner">
+            <div class="container">
+                <div id="logo">
+                    <a href="/"><img src="img/logo.svg" alt="4Migos"></a>
+                </div>
+                <nav id="navigation">
+                    <ul>
+                        <li>
+                            <a href="portfolio.html">Portf&ouml;lj</a>
+                        </li>
+                        <li>
+                            <a href="services.html">V&aring;ra tj&auml;nster</a>
+                        </li>
+                        <li>
+                            <a href="coworkers.html">Medarbetare</a>
+                        </li>
+                        <li>
+                            <a class="current" href="contact.html">Om oss</a>
+                        </li>
+                    </ul>
+                </nav><!-- end #navigation -->
+            </div><!-- end .container -->
+        </header><!-- end #header -->
+
+        <section id="page-header">
+            <div class="container">
+                <h1>Om oss</h1>
+                <p>Historia och kontakt</p>
+            </div>
+        </section><!-- end #welcome-message -->
+
+        <div id="page" class="container contact">
+            <section id="content" role="main">
+                <div class="contactbody fix">
+                    <img class="fl no-mobile" src="img/logo_grande.png" alt="4Migos">
+                    <div class="contactcopy">
+                        <p>4Migos består av fyra passionerade nördar som brinner för webben, formgivning och teknisk briljans.
+                        Vi har mångårig erfarenhet av webbutveckling, grafisk produktion och illustration.</p>
+                        <p>Vi är spridda över hela Sverige och kan utföra jobb var som helst i landet.</p>
+                        <h2>Kontakta oss</h2>
+                        <label for="name">Namn:</label><input id="name" type="text">
+                        <label for="email">E-post:</label><input id="email" type="text">
+                        <label for="name">Meddelande:</label><textarea name="msg" id="msg" cols="10" rows="5"></textarea>     
+                        <button>Skicka</button>
+                    </div>
+                </div>
+            </section><!-- end #content -->
+        </div>
+        <!--! end #page -->
+
+        <footer id="footer">
+            <div class="container">
+                <div class="copyright fl">
+                    &copy; 4Migos
+                </div>
+                <div class="contact-info fr">
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- JavaScript at the bottom for fast page loading -->
+
+        <!-- Grab jquery CDN's jQuery -->
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+        <!-- scripts concatenated and minified via ant build script-->
+        <script defer src="js/site.js"></script>
+        <!-- end scripts-->
+
+        <!-- Analytics -->
+        <script>
+            window._gaq = [['_setAccount', 'UA-23938385-5'], ['_trackPageview'], ['_trackPageLoadTime']];
+            Modernizr.load({
+                load : ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+            });
+        </script>
+
+        <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+        chromium.org/developers/how-tos/chrome-frame-getting-started -->
+        <!--[if lt IE 7 ]>
+        <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+        <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+        <![endif]-->
+
+    </body>
+</html>
