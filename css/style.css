@@ -465,13 +465,13 @@ a:hover {
     }
     
     .single-portfolio-text {
-    	width: 55%;
+    	width: 65%;
     	padding-right: 5%;
     	float:left;
     }
     
     .single-portfolio-info {
-    	max-width: 20%;
+    	width: 30%;
     	float:left;
     	
     }
@@ -510,7 +510,7 @@ a:hover {
     .single-portfolio-text {
 	width: 65%;
 	float: left;
-}
+	}
 
 .single-portfolio-info {
 	max-width: 30%;
