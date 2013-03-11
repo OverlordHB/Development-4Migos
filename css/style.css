@@ -199,18 +199,25 @@ p {
 }
 
 .portfolio-title {
-	margin-top: 0.9rem;
-	text-align:center;
+	margin-top: 1em;
+	text-align: center;
+}
+
+.amigo-title {
+    margin-top: 1em;
 }
 
 .page-introduction {
 	margin-bottom: 20px;
 }
 
-.portfolio-item img:hover {
-	
-background: #a00;
-opacity: 0.8;
+.imglist-item img:hover {
+    background: #a00;
+    opacity: 0.8;
+}
+
+dt {
+    font-weight: bold;
 }
 
 /* LINKS */
@@ -296,12 +303,12 @@ a:hover {
 
 /* PORTFOLIO PAGE */
 
-.portfolio-item {
+.imglist-item {
 	float:left;
 	margin-bottom: 50px;
 }
 
-.portfolio-item img {
+.imglist-item img {
     	max-width:90%;
     	height: auto;
 }
@@ -401,7 +408,7 @@ a:hover {
         text-align: center;
     }
     
-    .portfolio-item {
+    .imglist-item {
     	width: 50%;
      }
 
@@ -437,7 +444,7 @@ a:hover {
         margin-left: 0;
     }
     
-    .portfolio-item {
+    .imglist-item {
     	width: 25%;
     }
 
@@ -468,7 +475,7 @@ a:hover {
         margin-left: 0;
     }
     
-    .portfolio-item {
+    .imglist-item {
     	width: 25%;
     }
     
