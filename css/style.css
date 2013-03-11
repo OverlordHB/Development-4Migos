@@ -408,8 +408,16 @@ a:hover {
     #navigation ul li {
         width: 50%;
         float: left;
-        margin: 0;
+        margin: 0 0 17px 0;
         text-align: center;
+    }
+    
+    #navigation a {
+    	padding: 3px 10px;
+    	border: 1px solid #111;
+    	-webkit-border-radius: 100px;
+		-moz-border-radius: 100px;
+		border-radius: 100px;
     }
     
     .imglist-item {
