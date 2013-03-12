@@ -15,12 +15,14 @@
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
 		<!-- CSS: implied media=all -->
+                <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
 		<link rel="stylesheet" href="css/style.css">
 		<!-- end CSS-->
 		<!-- All JavaScript at the bottom, except for Modernizr / Respond.
 		Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
 		For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
 		<script src="js/libs/modernizr-2.0.6.min.js"></script>
+
 	</head>
 
 	<body>
@@ -33,7 +35,7 @@
 				<nav id="navigation">
 					<ul>
 						<li>
-							<a href="portfolio.html" class="current">Portf&ouml;lj</a>
+							<a href="portfolio.html">Portf&ouml;lj</a>
 						</li>
 						<li>
 							<a href="services.html">V&aring;ra tj&auml;nster</a>
@@ -42,63 +44,29 @@
 							<a href="coworkers.html">Medarbetare</a>
 						</li>
 						<li>
-							<a href="contact.html">Kontakt</a>
+							<a href="contact.html">Om oss</a>
 						</li>
 					</ul>
 				</nav><!-- end #navigation -->
 			</div><!-- end .container -->
 		</header><!-- end #header -->
 
-		<section id="page-header">
+		<section id="welcome-message">
 			<div class="container">
-				<h1>Deculture</h1>
+				<h2>4Migos &auml;r en grupp erfarna designers och utvecklare.<br />
+	Vi gillar att skapa saker som du har anv&auml;ndning f&ouml;r.</h2>
 			</div>
-		</section><!-- end #page-header -->
-
-		<div id="page" class="container">
-			<section id="content" role="main">
-				<div class="page-introduction">
-					<p>
-						När den Sveriges enda blogg om anime, manga, tv-spel och visuella noveller ville ut på nätet fanns givetvis 4migos där och hjälpte dem.
-					</p>
-				</div>
-				<div class="portfolio-image">
-					<img src="deculture930.png" alt="Deculture screenshoot big" />
-				</div>
-				<head>
-					<h1 id="portfolio-header">Sveriges enda blogg om anime, manga, tv-spel och visuella noveller</h1>
-				</head>
-				<article class="single-portfolio-text">
-					<p>
-						Deculture satsar på att vara en av de enda bloggarna i Sverige som skriver om en stor sfär med olika nya kulturella miljöer.
-					</p>
-					<p>
-						Med på detta blir det enklast via att man recenserar både spel och anime tillsammans med manga och den något förtrycka genren visuella noveller.
-					</p>
-				</article>
-				<aside class="single-portfolio-info">
-					<dl>
-						<dt class="client">Uppdragsgivare</dt>
-						<dd>Deculture</dd>
-						<dt class="technigues">Tekniker</dt>
-						<dd>HTML, Photoshop, Illustrator, Wordpress</dd>
-						<dt class="url">Adress</dt>
-						<dd><a href="http://deculture.se">http://deculture.se</a></dd>
-					</dl>
-					
-					
-				</aside>
-			</section><!-- end #content -->
-		</div>
+		</section><!-- end #welcome-message -->
+                
 		<!--! end #page -->
 
 		<footer id="footer">
 			<div class="container">
 				<div class="copyright fl">
-					&copy; 4Migos
+					<p>&copy; 4Migos</p>
 				</div>
 				<div class="contact-info fr">
-					<p><a href="http://twitter.com/4migos">@4Migos</a> &#9734; <a href="mailto:hej@4migos.se">hej@4migos.se</a></p>
+					<p><a href="http://twitter.com/4migos">@4Migos</a> | <a href="mailto:hej@4migos.se">hej@4migos.se</a></p>
 					<p>Uppegårdsvägen 98<br/>444 43<br/> Stenungsund</p>
 				</div>
 			</div>
@@ -111,6 +79,7 @@
 
 		<!-- scripts concatenated and minified via ant build script-->
 		<script defer src="js/site.js"></script>
+
 		<!-- end scripts-->
 
 		<!-- Analytics -->
@@ -127,6 +96,7 @@
 		<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
 		<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
 		<![endif]-->
-
+                	
+               
 	</body>
 </html>
